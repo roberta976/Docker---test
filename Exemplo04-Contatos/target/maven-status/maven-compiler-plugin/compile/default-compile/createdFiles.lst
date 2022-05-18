@@ -1,0 +1,10 @@
+br\ifpe\web2\Exemplo04ContatosApplication.class
+br\ifpe\web2\service\GrupoService.class
+br\ifpe\web2\model\Estado.class
+br\ifpe\web2\dao\GrupoDAO.class
+br\ifpe\web2\model\Grupo.class
+br\ifpe\web2\dao\ContatoDAO.class
+br\ifpe\web2\service\ContatoService.class
+br\ifpe\web2\controller\GrupoController.class
+br\ifpe\web2\controller\ContatoController.class
+br\ifpe\web2\model\Contato.class
