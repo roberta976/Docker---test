@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  mysql-crud:
+    image: mysql:latest
+    container_name: mysql-crud
+    environment:
+      MYSQL_ROOT_PASSWORD: 3214
+    restart: always
+  img-aplicacao-java:
+    build: "./"
+    container_name: aplicacao-java
+    restart: always
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mysql-crud
